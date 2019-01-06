@@ -406,11 +406,11 @@
             "autoUpgradeMinorVersion": true,
             "settings": {
                 "fileUris": [
-                    "https://raw.githubusercontent.com/sangaml/Hyperledger_Fabric_Cluster-composer/master/hyperledger.sh"
+                    "https://raw.githubusercontent.com/sangaml/Hyperledger_Fabric_Cluster-composer/master/software.sh"
                 ]
             },
             "protectedSettings": {
-                "commandToExecute": "./hyperledger.sh"
+                "commandToExecute": "./software.sh"
             }
         }
     }
