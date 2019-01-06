@@ -17,6 +17,7 @@ curl -fsSL 'https://sks-keyservers.net/pks/lookup?op=get&search=0xee6d536cf7dc86
 sudo add-apt-repository    "deb https://packages.docker.com/1.12/apt/repo/ \
 ubuntu-$(lsb_release -cs) \
 main"
+
 sudo apt-get update
 sudo apt-get -y install docker-engine
 sudo curl -o /usr/local/bin/docker-compose -L "https://github.com/docker/compose/releases/download/1.11.2/docker-compose-$(uname -s)-$(uname -m)"
