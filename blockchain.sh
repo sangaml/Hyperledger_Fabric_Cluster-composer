@@ -16,4 +16,5 @@ unzip fabric-dev-servers.zip
 sudo ./downloadFabric.sh
 sudo ./startFabric.sh
 ./createPeerAdminCard.sh
-composer-playground
+nohup composer-playground &
+exit
