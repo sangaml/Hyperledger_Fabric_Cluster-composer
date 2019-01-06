@@ -25,4 +25,4 @@ sudo apt-get -y install docker-engine --allow-unauthenticated
 sudo curl -o /usr/local/bin/docker-compose -L "https://github.com/docker/compose/releases/download/1.11.2/docker-compose-$(uname -s)-$(uname -m)"
 sudo chmod +x /usr/local/bin/docker-compose
 #Install nvm
-sudo -i -u admin123 bash -c exec "./blockchain.sh"
+sudo -i -u admin123 exec "./blockchain.sh"
